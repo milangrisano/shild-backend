@@ -11,6 +11,10 @@
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Project setup
+1. Clonar el proyecto
+2. ```yarn install```
+3. Clonar el archivo ```.env.template``` y renombrarlo a ```.env```
+4. Cambiar las variables de entorno
 
 1. start data base
 ```bash
