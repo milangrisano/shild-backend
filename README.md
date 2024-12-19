@@ -16,7 +16,7 @@
 ```bash
 $ docker-compose up -d
 ```
-2. 
+2. Install package node
 ```bash
 $ yarn install
 ```
