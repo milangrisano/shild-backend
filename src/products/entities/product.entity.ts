@@ -23,6 +23,13 @@ export class Product {
     })
     description:string;
 
-    @Column()
-    category: string;
+    @Column('text',{
+    })
+    size: string;
+
+    @Column('int',{
+        default: 0,
+        nullable: true,
+    })
+    stock: number;
 }
