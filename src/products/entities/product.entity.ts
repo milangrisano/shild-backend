@@ -24,6 +24,8 @@ export class Product {
     description:string;
 
     @Column('text',{
+        array: true,
+        default: [],
     })
     sizes: string[];
 

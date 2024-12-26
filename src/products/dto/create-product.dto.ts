@@ -17,6 +17,7 @@ export class CreateProductDto {
 
     @IsString({ each: true })
     @IsArray()
+    @IsOptional()
     sizes: string[];
 
     @IsInt()
